@@ -18,7 +18,8 @@ public class ExecuteStudent {
         Student st1 = new Student();
 
         Student st2 = new Student("Duc", 26);
-        System.out.println("Check object: " + st2.age + ": " + st2.name);
+        st2.setName("Duc new setName");
+        System.out.println("Check object: " + st2.getAge() + ": " + st2.getName());
 
 
     }
