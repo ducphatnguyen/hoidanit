@@ -26,7 +26,6 @@ public class SwitchCase {
                 System.exit(0);
         }
 
-
-
+        sc.close();
     }
 }
