@@ -1,5 +1,7 @@
 package chapter5;
 
+import chapter4.Student;
+
 import java.util.ArrayList;
 
 // Các method hay dùng:
@@ -14,7 +16,9 @@ public class ArrayListLesson {
         int a = 10;
 
 //      Kiểu dữ liệu không nguyên thủy (ép kiểu)
-        ArrayList<String> a1 = new ArrayList<>(); // generic
+        ArrayList<String> a1 = new ArrayList<>(); // generic . Java diamon v7 tự động đoán type bên phải
+        ArrayList<Student> a3 = new ArrayList<Student>();
+
         a1.add("hello");
         a1.add("hello1");
         a1.add("hello2");
