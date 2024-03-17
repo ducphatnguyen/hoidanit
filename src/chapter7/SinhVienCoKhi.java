@@ -8,4 +8,9 @@ public class SinhVienCoKhi extends SinhVien{
         super(id, name, price, tax);
         this.skill = skill;
     }
+
+    @Override
+    void tinhDiem() {
+
+    }
 }

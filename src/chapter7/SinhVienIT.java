@@ -15,6 +15,11 @@ public class SinhVienIT extends SinhVien{
         super.info();
     }
 
+    @Override
+    void tinhDiem() {
+
+    }
+
     public void info() {
         System.out.println("Run info from sinhvienIT");
     }
