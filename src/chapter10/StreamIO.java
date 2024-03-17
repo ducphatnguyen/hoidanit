@@ -11,8 +11,9 @@ public class StreamIO {
         FileWriter outputStream = null;
         System.out.println(System.getProperty("user.dir"));
         try {
-            inputStream = new FileReader("input.txt");
-            outputStream = new FileWriter("characteroutput.txt");
+//          Path
+            inputStream = new FileReader("./src/chapter10/input.txt");
+            outputStream = new FileWriter("characteroutput1.txt");
             int c;
             while ((c = inputStream.read()) != -1) {
                 outputStream.write(c);
